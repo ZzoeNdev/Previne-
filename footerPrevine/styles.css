@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    --main-color: #96c0f0;
+}
+
+.logo p {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: -1px;
+  color: #404040;
+}
+
+.logo p span {
+  color: var(--main-color);
+}
+
+.container-geral{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 70vh;
+    background-color: rgba(239, 239, 239, 1);
+    z-index: -999;
+}
+
+.container-message{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 94vw;
+    height: 33.33vh;
+    border-radius: 0 0 20px 20px;
+    background-color: var(--main-color);
+}
+
+.message-title{
+    font-size: 90px;
+    font-weight: 600;
+    max-width: 1000px;
+    color: rgba(246, 246, 246, 1);
+}
+
+.message-text{
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 520px;
+    color: rgba(246, 246, 246, 1);
+}
+
+.container-topics{
+    width: 94vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.prev-text{
+    max-width: 670px;
+}
+
+.topics-list{
+    list-style: none;
+}
+
+.sublinhadoUp{
+    width: 115px;
+    height: 15px;
+    background-color: #96c0f0;
+    margin-top: -12px;
+}
+
+.sublinhadoDown{
+    width: 90px;
+    height: 15px;
+    background-color: #96c0f0;
+    margin-top: -12px;
+}
+
+.contacts-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.img-patrocinadores{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.UpPt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.DownPt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.social-icon{
+    width: 24px;
+    height: 24px;
+}
+
+.division-footer{
+    width: 100vw;
+    height: 4px;
+    margin-top: 40px;
+    background-color: #96c0f0;
+}
+
+.final-footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 35px;
+    width: 94vw;
+}
+
+.copy{
+    display: flex;
+    align-items: center;
+}
+
+.copy > p{
+    color: #747474;
+}
