@@ -1,4 +1,5 @@
 Previne+ - WebSite 🌐
+My role involved the footer, both in design and development.
 
 ⏩ To use/see, just go to the link [https://previne.vercel.app/index.html]
 
